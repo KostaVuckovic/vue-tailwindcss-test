@@ -7,7 +7,7 @@
       </router-link>
       <!-- hamburger menu button -->
       <button @click="hamburgerMenuOpened = !hamburgerMenuOpened" class="focus:outline-none z-40 lg:hidden">
-        <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="hamburger fill-current stroke-current transition-colors duration-500 w-6" :class="{ openNav: hamburgerMenuOpened }">
+        <svg viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg" class="hamburger fill-current stroke-current transition-colors duration-500 w-6" :class="{ openNav: hamburgerMenuOpened }">
           <line x1="1" x2="19" y1="4" y2="4" class="line1 transition-all duration-500"></line> 
           <line x1="1" x2="19" y1="9" y2="9" transform="rotate(0 10 9)" class="line2 origin-center transition-all duration-500"></line> 
           <line x1="1" x2="19" y1="9" y2="9" transform="rotate(0 10 9)" class="line3 origin-center transition-all duration-500"></line> 
